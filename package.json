@@ -1,0 +1,41 @@
+{
+  "name": "calcutext",
+  "version": "1.0.0",
+  "description": "Do calculations with your written text",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "classnames": "2.3.1",
+    "mathjs": "10.6.1",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "6.6.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.2.0",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "prettier": "2.2.0",
+    "react-scripts": "3.4.3",
+    "styled-jsx": "3.3.1",
+    "typescript": "3.8.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

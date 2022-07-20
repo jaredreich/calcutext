@@ -1,0 +1,12 @@
+{
+  "short_name": "Calcutext",
+  "name": "Calcutext: Do calculations with your written text",
+  "description": "Do calculations with your written text",
+  "icons": [],
+  "start_url": "/?source=pwa",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000",
+  "shortcuts": []
+}
