@@ -6,6 +6,7 @@ import { COLOR_BLACK, COLOR_GRAY } from './constants';
 import {
   iconAdd,
   iconClose,
+  iconGitHub,
   iconMenu,
   iconSettings,
   iconTrash,
@@ -214,6 +215,15 @@ export default function Banner() {
                 </div>
               </div>
               <div className="banner-right">
+                <div className="banner-right-item">
+                  <a
+                    href="https://github.com/jaredreich/calcutext"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img src={iconGitHub(COLOR_GRAY)} alt="GitHub" />
+                  </a>
+                </div>
                 <div
                   className="banner-right-item"
                   onClick={handleClickMenu}
@@ -307,9 +317,17 @@ export default function Banner() {
                 height: 16px;
               }
 
+              .banner-right {
+                display: flex;
+                column-gap: 1rem;
+              }
+
               .banner-right-item {
                 align-items: center;
                 cursor: pointer;
+                display: flex;
+              }
+              .banner-right-item a {
                 display: flex;
               }
               .banner-right-item img {
