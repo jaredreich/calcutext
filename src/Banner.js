@@ -218,7 +218,7 @@ export default function Banner() {
                 <div className="banner-right-item">
                   <a
                     href="https://github.com/jaredreich/calcutext"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <img src={iconGitHub(COLOR_GRAY)} alt="GitHub" />
