@@ -68,6 +68,10 @@ export default function App() {
 
   const getResultFromInput = ({ input, parser }) => {
     try {
+      // Pre-parse input
+      // Used to ignore underscores in numbers to enable rust-like syntax
+      input = input.replace(/\b([\d_]+)/gi, (match) => (match.replace(/_/gi,'')));
+
       const result = parser.evaluate(input);
 
       if (typeof result === 'number') {
